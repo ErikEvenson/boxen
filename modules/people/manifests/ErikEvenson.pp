@@ -1,8 +1,9 @@
 class people::erikevenson {
   notify { 'class people::erikevenson declared': }
 
+  include brewcask
   include chrome
-  
+
   package { 'alfred':
     provider => 'brewcask'
   }
