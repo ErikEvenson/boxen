@@ -1,3 +1,3 @@
-class people::ErikEvenson {
+class people::erikevenson {
   include chrome
 }
