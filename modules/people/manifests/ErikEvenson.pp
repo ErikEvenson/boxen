@@ -2,6 +2,10 @@ class people::erikevenson {
   notify { 'class people::erikevenson declared': }
 
   include chrome
+  
+  package { 'alfred':
+    provider => 'brewcask'
+  }
 
   # Set up git
   exec { 'git user name':
