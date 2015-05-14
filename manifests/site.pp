@@ -2,8 +2,6 @@ require boxen::environment
 require homebrew
 require gcc
 
-include chrome
-
 Exec {
   group       => 'staff',
   logoutput   => on_failure,
